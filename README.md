@@ -1,1 +1,3 @@
-# Kogane.Collider2DExtensionMethods
+# Kogane Collider 2D Extension Methods
+
+Collider2D の拡張メソッド
