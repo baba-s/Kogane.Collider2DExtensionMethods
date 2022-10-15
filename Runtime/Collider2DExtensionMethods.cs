@@ -7,7 +7,7 @@ namespace Kogane
     {
         public static List<Collider2D> OverlapCollider<T>( this T self ) where T : Collider2D
         {
-            return self.OverlapCollider( new ContactFilter2D() );
+            return self.OverlapCollider( new() );
         }
 
         public static List<Collider2D> OverlapCollider<T>
